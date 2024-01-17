@@ -60,6 +60,5 @@ export default class DellAnalyzer implements Analyzer {
     }
 
     private constructor() {
-
     }
 }
