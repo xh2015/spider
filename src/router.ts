@@ -33,7 +33,7 @@ router.get('/getData', (req: RequestWithBody, res: Response) => {
         new Crowller(url, analyzer);
         res.send('getData Success!');
     } else {
-        res.send(`${req.teacherName} password Error!`);
+        res.send('password Error!');
     }
 
 });
